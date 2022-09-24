@@ -28,7 +28,7 @@ p{
 }
 
 nav{
-	background-color: rgba(255, 210, 194, 0.918);
+	background-color: rgba(203, 182, 165);
 	position: sticky;
 	top: 0;
 	padding: 10px 30px;
@@ -58,13 +58,13 @@ nav{
 		}
 
 footer{
-	background-color: rgba(255, 210, 194, 0.918);
+	background-color: rgba(203, 182, 165);
 	font-size: 20px;
 	
 }
 
 .textDestacado{
-	background-color: rgba(255, 210, 194, 0.918);
+	background-color: rgba(203, 182, 165);
 }
 
 .textBold{
@@ -84,11 +84,11 @@ footer{
 }
 
 .bgLight{
-	background-color:rgba(255, 210, 194, 0.918) ;
+	background-color:rgba(203, 182, 165) ;
 }
 
 .bgDark{
-	background-color: rgba(255, 210, 194, 0.918);
+	background-color: rgba(203, 182, 165);
 }
 
 .btnXl{
@@ -133,11 +133,17 @@ footer{
 	height: 200px;
 	overflow: hidden;
 	padding: 20px 30px;
-	border: solid rgba(255, 210, 194, 0.918) 2px;
+	border: solid rgba(203, 182, 165) 2px;
 	box-sizing: border-box;
 	margin: 20px auto;
 }
 
 
+.navbar{
+    background-color: rgb(203, 182, 165) !important;    
+}
 
+.dropdown-menu{
+    background-color: rgb(203, 182, 165) !important;    
+}
 
