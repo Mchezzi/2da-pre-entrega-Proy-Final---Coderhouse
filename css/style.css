@@ -147,3 +147,7 @@ footer{
     background-color: rgb(203, 182, 165) !important;    
 }
 
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
