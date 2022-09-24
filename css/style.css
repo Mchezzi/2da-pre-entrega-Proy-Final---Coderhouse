@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-attachment: fixed;
+}
+
+h1,h2,h3{
+	color:rgba(201, 158, 143, 0.757);
+	font-family:'Roboto', sans-serif;
+}
+
+
+p{
+	color:#817E7E;
+	line-height: 2rem;
+	font-size: 1.6rem;
+}
+
+nav{
+	background-color: rgba(255, 210, 194, 0.918);
+	position: sticky;
+	top: 0;
+	padding: 10px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+
+	nav ul{
+		display: flex;
+	}
+
+	nav ul li{
+		list-style: none;
+		margin-right: 20px;
+	}
+
+		nav ul li a{
+			font-size: 1.8rem;
+			text-decoration: none;
+			color: #5B5959;
+		}
+
+		nav ul li a:hover{
+			color: black;
+			font-weight: 600;
+		}
+
+footer{
+	background-color: rgba(255, 210, 194, 0.918);
+	font-size: 20px;
+	
+}
+
+.textDestacado{
+	background-color: rgba(255, 210, 194, 0.918);
+}
+
+.textBold{
+	font-weight: 600;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.bgLight{
+	background-color:rgba(255, 210, 194, 0.918) ;
+}
+
+.bgDark{
+	background-color: rgba(255, 210, 194, 0.918);
+}
+
+.btnXl{
+	width:50%;
+	height: 30px;
+	background-color: white;
+	color: 240, 178, 122;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 50px;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.anuncio__box--white{
+	text-align: center;
+	background-color: white;
+	padding: 5px 0;
+}
+.encabezado__img--fluid{
+	width: 100%;
+}
+
+.novedades__titulo--xxl{
+	font-size: 4rem;
+}
+
+.novedades__titulo--xl{
+	font-size: 3rem;
+}
+
+.novedades__titulo--md{
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+
+
+.novedades__articulo{
+	width:300px;
+	height: 200px;
+	overflow: hidden;
+	padding: 20px 30px;
+	border: solid rgba(255, 210, 194, 0.918) 2px;
+	box-sizing: border-box;
+	margin: 20px auto;
+}
+
+
+
+
